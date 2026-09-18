@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ccde064f-dd76-40ce-96b2-53da1256df29")
+	(paper "A5")
+	(title_block
+		(title "Motor Driver Interconnection for HAL-95")
+		(date "2026-09-17")
+		(company "ENSEA")
+		(comment 1 "JP")
+	)
+	(lib_symbols)
+	(sheet
+		(at 73.66 36.83)
+		(size 48.26 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fcd9a6fe-aa15-4eea-86d9-ab15a4e39632")
+		(property "Sheetname" "Motor_Driver"
+			(at 73.66 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_Driver.kicad_sch"
+			(at 73.66 61.5446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN1" input
+			(at 73.66 41.91 180)
+			(uuid "7f4cb146-0203-4f78-ae4f-9dabbc60e9ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AIN2" input
+			(at 73.66 44.45 180)
+			(uuid "221df38f-841a-4af5-b2c4-85cd7c390e78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BIN1" input
+			(at 73.66 46.99 180)
+			(uuid "0aa320e8-46c9-490a-8e33-a2d191c8d18f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BIN2" input
+			(at 73.66 49.53 180)
+			(uuid "7f86f960-ef99-458d-9e8e-88f3f925f35e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCA_OUT1" output
+			(at 121.92 43.18 0)
+			(uuid "6d92c972-e34e-4232-abc7-43c378531fc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCA_OUT2" output
+			(at 121.92 45.72 0)
+			(uuid "9cc39277-2767-4e93-a742-5f47dbcaf726")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCB_OUT1" output
+			(at 121.92 48.26 0)
+			(uuid "94bc1787-abc5-4645-be03-ea8e1089bda0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENCB_OUT2" output
+			(at 121.92 50.8 0)
+			(uuid "fed6c3c6-a90e-4b3c-94fa-17be2a852987")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "HAL95_Motor_Driver"
+				(path "/ccde064f-dd76-40ce-96b2-53da1256df29"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
