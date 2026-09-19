@@ -543,7 +543,7 @@
         "uuid": "d28472ac-3b92-430d-9be8-f4bdbfbb9f17"
       }
     ],
-    "used_designators": "D1,#PWR1-17,C1-13,R1,J1,J3,SW1-3,JP1-2,U1,Y1",
+    "used_designators": "D1,#PWR1-38,C1-18,#FLG1-4,R1-4,J1-8,SW1-3,JP1-2,U1-2,Y1",
     "variants": []
   },
   "sheets": [
@@ -554,6 +554,14 @@
     [
       "78b6ab93-d2c6-45f5-82ba-493882b68747",
       "STM32"
+    ],
+    [
+      "b958a27d-8d24-4628-b700-6e6347cb1cb7",
+      "Motor_Driver"
+    ],
+    [
+      "251c92bf-7d24-4d41-80a8-919d68a47435",
+      "Sensors"
     ]
   ],
   "text_variables": {},
