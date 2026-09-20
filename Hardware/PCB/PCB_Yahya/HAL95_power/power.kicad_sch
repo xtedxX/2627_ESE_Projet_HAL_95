@@ -1,0 +1,222 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6d0619ad-32d5-4b72-b8ab-54ffea3cba78")
+	(paper "A4")
+	(title_block
+		(date "2026-09-18")
+		(rev "1.0")
+		(company "ENSEA")
+		(comment 1 "Yahya KABBASSI")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395c4e0f-c858-43e4-966e-63b064e24eb1")
+	)
+	(wire
+		(pts
+			(xy 134.62 73.66) (xy 134.62 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d6f401-7725-430b-833e-46da7a2477f4")
+	)
+	(wire
+		(pts
+			(xy 134.62 69.85) (xy 157.48 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95df0a9e-20c1-40c7-8b7b-4a9960eece8d")
+	)
+	(sheet
+		(at 157.48 64.77)
+		(size 77.47 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1b7af0a6-1135-49d7-8354-f76138fa02ac")
+		(property "Sheetname" "Charger_BQ25896"
+			(at 157.48 64.0584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Charger_BQ25896.kicad_sch"
+			(at 157.48 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INT_BQ" input
+			(at 157.48 113.03 180)
+			(uuid "9f80a592-21bf-425a-9993-639b5064e5cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32_I2C_SCL_BQ" input
+			(at 157.48 105.41 180)
+			(uuid "8cd97960-db3c-4b7f-95b7-635c80ae7915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32_I2C_SDA_BQ" input
+			(at 157.48 101.6 180)
+			(uuid "dd77fb8b-abf0-462f-b6a5-7ade084cca7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS" input
+			(at 157.48 69.85 180)
+			(uuid "14a15024-e116-42eb-9f8d-265f379b3b6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nQON" bidirectional
+			(at 157.48 119.38 180)
+			(uuid "998394ee-1550-44c1-ab66-77640fbe8b6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/6d0619ad-32d5-4b72-b8ab-54ffea3cba78"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 66.04)
+		(size 81.28 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f13a3b31-bc83-4039-97b2-d3a196f30cdc")
+		(property "Sheetname" "USB_C"
+			(at 33.02 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_C.kicad_sch"
+			(at 33.02 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STM32_D+" input
+			(at 114.3 87.63 0)
+			(uuid "0c80da10-6c46-4958-9a06-f0d13d043de9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32_D-" input
+			(at 114.3 92.71 0)
+			(uuid "33143002-38bc-498d-bcb8-8368d2437576")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" output
+			(at 114.3 73.66 0)
+			(uuid "1a3bf4ac-df1f-4e7d-82f4-9dda723d2492")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "power"
+				(path "/6d0619ad-32d5-4b72-b8ab-54ffea3cba78"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
