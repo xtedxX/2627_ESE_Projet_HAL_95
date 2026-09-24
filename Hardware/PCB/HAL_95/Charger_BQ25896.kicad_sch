@@ -4285,12 +4285,6 @@
 		(uuid "2f7a71eb-22bb-4235-a369-06c323d22313")
 	)
 	(junction
-		(at 102.87 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "322e30c9-7a60-4f63-80a6-c7ee86d0d7c5")
-	)
-	(junction
 		(at 173.99 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4327,7 +4321,7 @@
 		(uuid "79e33909-1828-4237-9880-1376429c0514")
 	)
 	(junction
-		(at 140.97 29.21)
+		(at 142.24 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac2edaf-d927-402b-8fff-91e4c2b1e9fb")
@@ -4516,7 +4510,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 29.21) (xy 133.35 29.21)
+			(xy 133.35 29.21) (xy 143.51 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4683,16 +4677,6 @@
 			(type default)
 		)
 		(uuid "262cf210-8481-466d-9e98-4e6a026360d6")
-	)
-	(wire
-		(pts
-			(xy 102.87 29.21) (xy 113.03 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2804af76-1d64-4f99-ae3d-f7cc6c53ddf7")
 	)
 	(wire
 		(pts
@@ -5136,6 +5120,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 29.21) (xy 53.34 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650a408a-a2cc-4b45-98a4-740a7905fc89")
+	)
+	(wire
+		(pts
 			(xy 68.58 53.34) (xy 68.58 59.69)
 		)
 		(stroke
@@ -5203,6 +5197,16 @@
 			(type default)
 		)
 		(uuid "6ab6725c-4a97-4b5a-9f36-e3b6cc7abc49")
+	)
+	(wire
+		(pts
+			(xy 212.09 43.18) (xy 226.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eedf1ce-20e0-40b4-a0b9-c3ba234975ea")
 	)
 	(wire
 		(pts
@@ -5426,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 29.21) (xy 140.97 33.02)
+			(xy 142.24 29.21) (xy 142.24 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5526,16 +5530,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 29.21) (xy 140.97 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a020efc7-2364-4d53-8be4-954038a959fd")
-	)
-	(wire
-		(pts
 			(xy 133.35 64.77) (xy 137.16 64.77)
 		)
 		(stroke
@@ -5556,7 +5550,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 78.74 29.21)
+			(xy 67.31 29.21) (xy 78.74 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5666,6 +5660,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 33.02) (xy 133.35 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b5c276-c55f-40a6-be66-050225968bab")
+	)
+	(wire
+		(pts
 			(xy 224.79 97.79) (xy 210.82 97.79)
 		)
 		(stroke
@@ -5713,6 +5717,16 @@
 			(type default)
 		)
 		(uuid "bc72e7b1-fb3e-4461-9574-3ad18fe678f3")
+	)
+	(wire
+		(pts
+			(xy 212.09 41.91) (xy 212.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8948b2-1693-4f2e-8ed3-e41273261e22")
 	)
 	(wire
 		(pts
@@ -5866,17 +5880,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 29.21) (xy 53.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc6d2ead-adab-489f-858f-50848e76f83d")
-	)
-	(wire
-		(pts
-			(xy 86.36 29.21) (xy 102.87 29.21)
+			(xy 86.36 29.21) (xy 113.03 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5993,16 +5997,6 @@
 			(type default)
 		)
 		(uuid "d8101680-fb35-4349-9922-998fc1729565")
-	)
-	(wire
-		(pts
-			(xy 217.17 43.18) (xy 226.06 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93e41e1-3829-4041-ba41-b79abcc98f8f")
 	)
 	(wire
 		(pts
@@ -6343,16 +6337,6 @@
 			(justify right bottom)
 		)
 		(uuid "4852045f-1c9c-4dc4-b05f-c3204f1c91d6")
-	)
-	(label "VBUS"
-		(at 217.17 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b38691d-d06c-4900-9825-6e1503cc04ec")
 	)
 	(label "BAT"
 		(at 170.18 50.8 180)
@@ -7110,84 +7094,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07c8c48b-d39b-4708-be53-f1c8a99e9bbf")
-		(property "Reference" "#PWR051"
-			(at 102.87 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 102.87 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef85d874-cda6-4368-8dbc-479a3ab97c2e")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 68.58 49.53 0)
 		(unit 1)
@@ -7478,7 +7384,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C23733"
+		(property "JLCPCB Part #" "C318563"
 			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7788,6 +7694,84 @@
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 212.09 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e42a2db-89cf-4d74-b399-6c3db0859aa7")
+		(property "Reference" "#PWR092"
+			(at 212.09 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 212.09 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 212.09 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "988d6981-8a79-4a0a-b14e-a0c1d3bff7d8")
+		)
+		(instances
+			(project "HAL_95"
+				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -9395,7 +9379,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25531"
+		(property "JLCPCB Part #" "C25744"
 			(at 177.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10545,7 +10529,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25531"
+		(property "JLCPCB Part #" "C25744"
 			(at 177.8 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10726,7 +10710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k2"
 			(at 59.69 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11223,7 +11207,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 58.42 29.21 0)
+		(at 62.23 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11234,7 +11218,8 @@
 		(fields_autoplaced yes)
 		(uuid "58c56fc9-1b35-4c13-bb60-e660ac370c31")
 		(property "Reference" "JP1"
-			(at 58.42 25.4 0)
+			(at 62.23 25.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11244,7 +11229,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 58.42 25.4 0)
+			(at 62.23 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11255,7 +11240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11266,7 +11251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 36.83 0)
+			(at 62.23 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11277,7 +11262,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 58.42 34.29 0)
+			(at 62.23 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11288,7 +11273,7 @@
 			)
 		)
 		(property "Actuator Color" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11299,7 +11284,7 @@
 			)
 		)
 		(property "Created Date" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11310,7 +11295,7 @@
 			)
 		)
 		(property "Electrical Life (Cycles)" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11321,7 +11306,7 @@
 			)
 		)
 		(property "H (mm)" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11332,7 +11317,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11343,7 +11328,7 @@
 			)
 		)
 		(property "Manufacturer URL" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11354,7 +11339,7 @@
 			)
 		)
 		(property "Mounting Technology" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11365,7 +11350,7 @@
 			)
 		)
 		(property "Operation Force (g)" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11376,7 +11361,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11387,7 +11372,7 @@
 			)
 		)
 		(property "Series" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11398,7 +11383,7 @@
 			)
 		)
 		(property "Vaporphase process" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11409,7 +11394,7 @@
 			)
 		)
 		(property "Washable" ""
-			(at 58.42 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12928,84 +12913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 52.07 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7553851c-362e-4162-96d4-92bc8023dd05")
-		(property "Reference" "#PWR088"
-			(at 52.07 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 52.07 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 52.07 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "190ed6a9-c90a-4a20-b6e0-2de49967734c")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 255.27 105.41 0)
 		(unit 1)
@@ -13243,23 +13150,25 @@
 		(fields_autoplaced yes)
 		(uuid "76eb2d6e-e7a8-4d64-8986-90ffec3459f7")
 		(property "Reference" "R17"
-			(at 81.28 151.13 90)
+			(at 77.47 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
-			(at 78.74 151.13 90)
+		(property "Value" "2k2"
+			(at 77.47 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -17114,7 +17023,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 137.16 33.02 90)
+		(at 138.43 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17124,7 +17033,7 @@
 		(dnp no)
 		(uuid "b90d50ed-590d-49a7-a8a5-5bdc458ecfe8")
 		(property "Reference" "C21"
-			(at 134.112 31.75 90)
+			(at 135.382 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17134,7 +17043,7 @@
 			)
 		)
 		(property "Value" "47n"
-			(at 133.858 34.29 90)
+			(at 135.128 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17144,7 +17053,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 140.97 32.0548 0)
+			(at 142.24 32.0548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17155,7 +17064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 33.02 0)
+			(at 138.43 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17166,7 +17075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 33.02 0)
+			(at 138.43 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17177,7 +17086,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C82219"
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17188,7 +17097,7 @@
 			)
 		)
 		(property "Actuator Color" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17199,7 +17108,7 @@
 			)
 		)
 		(property "Created Date" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17210,7 +17119,7 @@
 			)
 		)
 		(property "Electrical Life (Cycles)" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17221,7 +17130,7 @@
 			)
 		)
 		(property "H (mm)" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17232,7 +17141,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17243,7 +17152,7 @@
 			)
 		)
 		(property "Manufacturer URL" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17254,7 +17163,7 @@
 			)
 		)
 		(property "Mounting Technology" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17265,7 +17174,7 @@
 			)
 		)
 		(property "Operation Force (g)" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17276,7 +17185,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17287,7 +17196,7 @@
 			)
 		)
 		(property "Series" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17298,7 +17207,7 @@
 			)
 		)
 		(property "Vaporphase process" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17309,7 +17218,7 @@
 			)
 		)
 		(property "Washable" ""
-			(at 137.16 33.02 90)
+			(at 138.43 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18006,7 +17915,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25531"
+		(property "JLCPCB Part #" "C25744"
 			(at 237.49 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18230,7 +18139,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25531"
+		(property "JLCPCB Part #" "C25744"
 			(at 250.19 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -18545,6 +18454,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 53.34 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf9662d3-8b6c-4a04-bdc8-e2fbf85d24d5")
+		(property "Reference" "#PWR051"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 53.34 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "678467d1-2d34-4fe6-9b7c-a2774c5cc9d6")
+		)
+		(instances
+			(project "HAL_95"
+				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 147.32 29.21 90)
 		(unit 1)
@@ -18576,7 +18563,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 147.32 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18609,7 +18596,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C531284"
+		(property "JLCPCB Part #" "C167447"
 			(at 147.32 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -19094,7 +19081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k2"
 			(at 43.18 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20082,7 +20069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2k2"
 			(at 26.67 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
