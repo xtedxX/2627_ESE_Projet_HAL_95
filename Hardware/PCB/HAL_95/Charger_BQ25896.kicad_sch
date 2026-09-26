@@ -10123,6 +10123,10 @@
 		)
 		(instances
 			(project "HAL_95"
+				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/251c92bf-7d24-4d41-80a8-919d68a47435"
+					(reference "U5")
+					(unit 1)
+				)
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
 					(reference "U5")
 					(unit 1)
