@@ -1508,121 +1508,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -1794,16 +1679,10 @@
 		(uuid "ee41aa3d-11d1-427a-a0de-3385a3de9001")
 	)
 	(junction
-		(at 194.31 73.66)
+		(at 166.37 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "145f2bfb-730c-40c4-88e5-03cf735c3911")
-	)
-	(junction
-		(at 140.97 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21b32c91-80dd-4162-918e-a1e545b8105a")
+		(uuid "38d0967e-cebd-4a13-a1d4-b13dcc394d7d")
 	)
 	(junction
 		(at 109.22 86.36)
@@ -1981,16 +1860,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 73.66) (xy 207.01 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ab7621-f6f0-4cbe-8d62-5efdef3a3707")
-	)
-	(wire
-		(pts
 			(xy 127 91.44) (xy 127 115.57)
 		)
 		(stroke
@@ -2058,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "953f53d0-3877-4b81-bbec-19a27881c6d4")
+	)
+	(wire
+		(pts
+			(xy 166.37 72.39) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db0163c-034c-4180-86d6-eb192f429080")
 	)
 	(wire
 		(pts
@@ -2131,13 +2010,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 194.31 73.66)
+			(xy 105.41 73.66) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d054893c-2b1d-456c-aba3-0b639fed2254")
+	)
+	(wire
+		(pts
+			(xy 166.37 73.66) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9454ea3-6feb-4856-b140-0963c57ff13e")
 	)
 	(wire
 		(pts
@@ -2220,218 +2109,6 @@
 			(justify left)
 		)
 		(uuid "ec4e71c1-e794-4783-b63c-52b5369f0505")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 207.01 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04397965-5a67-4de6-bf9c-c4cf4b351ecb")
-		(property "Reference" "TP2"
-			(at 209.55 69.0879 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 209.55 71.6279 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 212.09 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Actuator Color" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Created Date" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Electrical Life (Cycles)" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "H (mm)" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operation Force (g)" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vaporphase process" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Washable" ""
-			(at 207.01 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec67d0e4-cd4d-4c3e-8858-3b2cef6b0163")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/cf868148-9de1-446f-aaa2-162914e71069"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
@@ -3234,8 +2911,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 140.97 105.41 90)
+		(lib_id "power:VBUS")
+		(at 166.37 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3243,9 +2920,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "905670a7-d0b5-45b2-87f4-f03e90acb3e7")
-		(property "Reference" "#FLG02"
-			(at 139.065 105.41 0)
+		(fields_autoplaced yes)
+		(uuid "7ad842df-8631-4bd7-8baf-3351c268796f")
+		(property "Reference" "#PWR064"
+			(at 166.37 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3255,19 +2933,18 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 139.7 107.696 90)
+		(property "Value" "VBUS"
+			(at 166.37 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 105.41 0)
+			(at 166.37 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,7 +2955,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 105.41 0)
+			(at 166.37 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,8 +2965,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 140.97 105.41 0)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 166.37 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,12 +2977,223 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a99634a-7405-4242-88bc-18980676f4cc")
+			(uuid "ec44b8f5-bb02-4856-af90-4f2dd2a05c48")
 		)
 		(instances
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/cf868148-9de1-446f-aaa2-162914e71069"
-					(reference "#FLG02")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e33419ad-59dd-4c9f-8eb9-6ea0331bb957")
+		(property "Reference" "TP2"
+			(at 179.07 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 181.61 71.6279 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 184.15 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Actuator Color" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Created Date" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Electrical Life (Cycles)" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "H (mm)" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer URL" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Technology" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operation Force (g)" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Series" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vaporphase process" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Washable" ""
+			(at 179.07 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8735aab7-65f1-41c6-ba95-69947149c4f1")
+		)
+		(instances
+			(project "HAL_95"
+				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/cf868148-9de1-446f-aaa2-162914e71069"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3531,84 +3419,6 @@
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/cf868148-9de1-446f-aaa2-162914e71069"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 194.31 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7ec58df-7a71-48f9-a5ba-a83e6bbf17a0")
-		(property "Reference" "#PWR064"
-			(at 194.31 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 194.31 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 194.31 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db4def22-ee3c-4857-b1e0-324037449d47")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/cf868148-9de1-446f-aaa2-162914e71069"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)

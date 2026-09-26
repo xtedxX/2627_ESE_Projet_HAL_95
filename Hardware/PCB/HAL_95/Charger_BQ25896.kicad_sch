@@ -506,7 +506,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -10.16 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -556,7 +556,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -4333,16 +4333,16 @@
 		(uuid "7f036846-d555-46a7-afa0-5129005cbe79")
 	)
 	(junction
+		(at 78.74 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80a694c5-84cd-4974-8401-fcf75a423b81")
+	)
+	(junction
 		(at 107.95 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85e998d9-56aa-4ae7-91b9-2b8d86bf1b8e")
-	)
-	(junction
-		(at 78.74 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b756ed8-eb0a-4648-a027-4f38d109e97b")
 	)
 	(junction
 		(at 171.45 147.32)
@@ -4920,6 +4920,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 29.21) (xy 78.74 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e9a8be-19c7-4aa2-86ed-7150bc777c70")
+	)
+	(wire
+		(pts
 			(xy 156.21 29.21) (xy 168.91 29.21)
 		)
 		(stroke
@@ -4927,16 +4937,6 @@
 			(type default)
 		)
 		(uuid "4beff25c-aa0b-452e-97cd-1f68df95e28b")
-	)
-	(wire
-		(pts
-			(xy 255.27 68.58) (xy 262.89 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d480eab-c6d0-4d56-83b4-a40c52c18e66")
 	)
 	(wire
 		(pts
@@ -5117,16 +5117,6 @@
 			(type default)
 		)
 		(uuid "64b18a80-be0a-4b3a-897f-d572c1a3326a")
-	)
-	(wire
-		(pts
-			(xy 57.15 29.21) (xy 53.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650a408a-a2cc-4b45-98a4-740a7905fc89")
 	)
 	(wire
 		(pts
@@ -5550,16 +5540,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 29.21) (xy 78.74 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2522b0d-683e-4cf9-939a-3a894e7f3dc5")
-	)
-	(wire
-		(pts
 			(xy 185.42 140.97) (xy 185.42 147.32)
 		)
 		(stroke
@@ -5717,16 +5697,6 @@
 			(type default)
 		)
 		(uuid "bc72e7b1-fb3e-4461-9574-3ad18fe678f3")
-	)
-	(wire
-		(pts
-			(xy 212.09 41.91) (xy 212.09 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd8948b2-1693-4f2e-8ed3-e41273261e22")
 	)
 	(wire
 		(pts
@@ -6857,6 +6827,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 212.09 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05ef1077-e75d-4b49-8490-0572017d2890")
+		(property "Reference" "#PWR092"
+			(at 212.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 212.09 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 212.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62319ac7-ad22-4861-9317-c797fc853bbe")
+		)
+		(instances
+			(project "HAL_95"
+				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMDT3906")
 		(at 213.36 90.17 180)
 		(unit 2)
@@ -7694,162 +7742,6 @@
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
 					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 212.09 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e42a2db-89cf-4d74-b399-6c3db0859aa7")
-		(property "Reference" "#PWR092"
-			(at 212.09 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 212.09 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 212.09 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "988d6981-8a79-4a0a-b14e-a0c1d3bff7d8")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 210.82 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f321053-86e0-47ed-a8fb-923b3d8bb992")
-		(property "Reference" "#PWR091"
-			(at 210.82 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 210.82 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 210.82 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3366d002-edff-463a-9450-45e2fe87d857")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -9569,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-9_1.6x1.6mm_Layout3x3_P0.5mm"
+		(property "Footprint" "Package_BGA:Texas_DSBGA-9_1.62x1.58mm_Layout3x3_P0.5mm"
 			(at 78.74 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10710,7 +10602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "1k"
 			(at 59.69 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10754,7 +10646,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25879"
+		(property "JLCPCB Part #" "C11702"
 			(at 57.15 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10924,7 +10816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5119ab38-861f-4309-9477-61d964870d30")
-		(property "Reference" "JP3"
+		(property "Reference" "JP2"
 			(at 257.81 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11120,7 +11012,7 @@
 		(instances
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "JP3")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -11200,220 +11092,6 @@
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 62.23 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58c56fc9-1b35-4c13-bb60-e660ac370c31")
-		(property "Reference" "JP1"
-			(at 62.23 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 62.23 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 62.23 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Actuator Color" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Created Date" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Electrical Life (Cycles)" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "H (mm)" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operation Force (g)" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vaporphase process" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Washable" ""
-			(at 62.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4fd2eb8-936b-493b-a980-678d82383757")
-		)
-		(pin "2"
-			(uuid "bf2ee315-aa7c-4ecb-9df6-15d938192c73")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -12104,7 +11782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69fedb22-4702-4911-a408-f2420bb587ba")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 186.69 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12299,7 +11977,7 @@
 		(instances
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -13160,7 +12838,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "1k"
 			(at 77.47 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13204,7 +12882,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25879"
+		(property "JLCPCB Part #" "C11702"
 			(at 74.93 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -15037,6 +14715,84 @@
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 255.27 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d4990e7-5864-467d-98c1-6d874752eff8")
+		(property "Reference" "#PWR091"
+			(at 255.27 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 255.27 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 255.27 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2b70987-6698-4553-b522-674b925eeff6")
+		)
+		(instances
+			(project "HAL_95"
+				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -18376,162 +18132,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 255.27 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb966d0d-b274-4ef4-858c-a76cc092288f")
-		(property "Reference" "#PWR028"
-			(at 255.27 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 255.27 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22db3083-9551-4862-89d2-9ba4e17811c7")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 53.34 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf9662d3-8b6c-4a04-bdc8-e2fbf85d24d5")
-		(property "Reference" "#PWR051"
-			(at 53.34 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 53.34 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 53.34 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "678467d1-2d34-4fe6-9b7c-a2774c5cc9d6")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 147.32 29.21 90)
 		(unit 1)
@@ -19599,6 +19199,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 53.34 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e265074b-145c-4ed8-859b-c8bd5941ea61")
+		(property "Reference" "#PWR095"
+			(at 53.34 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 53.34 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc6e69eb-4ba2-410e-844a-3b52db271a4d")
+		)
+		(instances
+			(project "HAL_95"
+				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 210.82 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54e8411-1dd2-4d20-830a-b86b55452302")
+		(property "Reference" "#PWR051"
+			(at 210.82 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 210.82 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 210.82 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e3efa62-c478-404d-80d0-1cb1a522ca53")
+		)
+		(instances
+			(project "HAL_95"
+				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 148.59 74.93 270)
 		(unit 1)
@@ -20491,217 +20247,6 @@
 			(project "HAL_95"
 				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faf6c3cb-3960-45c5-bb2f-21f99be25bbe")
-		(property "Reference" "TP5"
-			(at 265.43 64.0079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 265.43 66.5479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 267.97 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Actuator Color" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Created Date" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Electrical Life (Cycles)" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "H (mm)" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer URL" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Technology" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operation Force (g)" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vaporphase process" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Washable" ""
-			(at 262.89 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09645cd2-467b-4a08-bf1f-da0650f6ee43")
-		)
-		(instances
-			(project "HAL_95"
-				(path "/d28472ac-3b92-430d-9be8-f4bdbfbb9f17/3f1f00ec-d2f6-4de9-9403-1c6f2ab76757"
-					(reference "TP5")
 					(unit 1)
 				)
 			)

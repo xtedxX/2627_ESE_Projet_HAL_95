@@ -708,7 +708,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -10.16 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -758,7 +758,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -1918,16 +1918,6 @@
 			)
 		)
 		(uuid "65e2313c-dc43-4489-94ce-d07d7e9d90e1")
-	)
-	(text "A changer comme moteur du dessus !"
-		(exclude_from_sim no)
-		(at 202.184 147.828 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "731ca05b-3ce7-49ac-ac70-71e5921bab98")
 	)
 	(text "Servomotor\n"
 		(exclude_from_sim no)
