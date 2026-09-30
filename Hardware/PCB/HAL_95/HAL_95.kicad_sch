@@ -14,7 +14,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 163.83 97.79) (xy 186.69 97.79)
+			(xy 184.15 119.38) (xy 207.01 119.38)
 		)
 		(stroke
 			(width 0)
@@ -24,7 +24,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 50.8) (xy 185.42 50.8)
+			(xy 184.15 72.39) (xy 205.74 72.39)
 		)
 		(stroke
 			(width 0)
@@ -34,7 +34,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 109.22 58.42)
+			(xy 93.98 80.01) (xy 129.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -44,7 +44,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 55.88) (xy 109.22 55.88)
+			(xy 93.98 77.47) (xy 129.54 77.47)
 		)
 		(stroke
 			(width 0)
@@ -54,7 +54,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 53.34) (xy 185.42 53.34)
+			(xy 184.15 74.93) (xy 205.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -64,7 +64,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 100.33) (xy 186.69 100.33)
+			(xy 184.15 121.92) (xy 207.01 121.92)
 		)
 		(stroke
 			(width 0)
@@ -74,7 +74,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 39.37) (xy 109.22 39.37)
+			(xy 93.98 60.96) (xy 129.54 60.96)
 		)
 		(stroke
 			(width 0)
@@ -84,7 +84,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 60.96) (xy 109.22 60.96)
+			(xy 93.98 82.55) (xy 129.54 82.55)
 		)
 		(stroke
 			(width 0)
@@ -94,7 +94,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 109.22) (xy 186.69 109.22)
+			(xy 184.15 130.81) (xy 207.01 130.81)
 		)
 		(stroke
 			(width 0)
@@ -104,7 +104,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 48.26) (xy 185.42 48.26)
+			(xy 184.15 69.85) (xy 205.74 69.85)
 		)
 		(stroke
 			(width 0)
@@ -114,7 +114,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 31.75) (xy 185.42 31.75)
+			(xy 184.15 53.34) (xy 205.74 53.34)
 		)
 		(stroke
 			(width 0)
@@ -124,7 +124,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 34.29) (xy 109.22 34.29)
+			(xy 93.98 55.88) (xy 129.54 55.88)
 		)
 		(stroke
 			(width 0)
@@ -134,7 +134,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 110.49) (xy 109.22 110.49)
+			(xy 93.98 132.08) (xy 129.54 132.08)
 		)
 		(stroke
 			(width 0)
@@ -144,7 +144,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 50.8) (xy 109.22 50.8)
+			(xy 93.98 72.39) (xy 129.54 72.39)
 		)
 		(stroke
 			(width 0)
@@ -154,7 +154,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 62.23) (xy 185.42 62.23)
+			(xy 184.15 83.82) (xy 205.74 83.82)
 		)
 		(stroke
 			(width 0)
@@ -164,7 +164,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 106.68) (xy 186.69 106.68)
+			(xy 184.15 128.27) (xy 207.01 128.27)
 		)
 		(stroke
 			(width 0)
@@ -174,7 +174,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 29.21) (xy 109.22 29.21)
+			(xy 93.98 50.8) (xy 129.54 50.8)
 		)
 		(stroke
 			(width 0)
@@ -184,7 +184,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 34.29) (xy 185.42 34.29)
+			(xy 184.15 55.88) (xy 205.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -194,7 +194,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 39.37) (xy 185.42 39.37)
+			(xy 184.15 60.96) (xy 205.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -204,7 +204,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 71.12) (xy 185.42 71.12)
+			(xy 184.15 92.71) (xy 205.74 92.71)
 		)
 		(stroke
 			(width 0)
@@ -214,7 +214,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 36.83) (xy 185.42 36.83)
+			(xy 184.15 58.42) (xy 205.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -224,7 +224,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 109.22 41.91)
+			(xy 93.98 63.5) (xy 129.54 63.5)
 		)
 		(stroke
 			(width 0)
@@ -234,7 +234,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 43.18) (xy 185.42 43.18)
+			(xy 184.15 64.77) (xy 205.74 64.77)
 		)
 		(stroke
 			(width 0)
@@ -244,7 +244,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 31.75) (xy 109.22 31.75)
+			(xy 93.98 53.34) (xy 129.54 53.34)
 		)
 		(stroke
 			(width 0)
@@ -254,7 +254,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 109.22 36.83)
+			(xy 93.98 58.42) (xy 129.54 58.42)
 		)
 		(stroke
 			(width 0)
@@ -264,7 +264,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 53.34) (xy 109.22 53.34)
+			(xy 93.98 74.93) (xy 129.54 74.93)
 		)
 		(stroke
 			(width 0)
@@ -274,7 +274,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 68.58) (xy 185.42 68.58)
+			(xy 184.15 90.17) (xy 205.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -284,7 +284,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 107.95) (xy 109.22 107.95)
+			(xy 93.98 129.54) (xy 129.54 129.54)
 		)
 		(stroke
 			(width 0)
@@ -294,7 +294,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 55.88) (xy 185.42 55.88)
+			(xy 184.15 77.47) (xy 205.74 77.47)
 		)
 		(stroke
 			(width 0)
@@ -304,7 +304,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 111.76) (xy 186.69 111.76)
+			(xy 184.15 133.35) (xy 207.01 133.35)
 		)
 		(stroke
 			(width 0)
@@ -313,7 +313,7 @@
 		(uuid "f901a7c1-8bc1-41f5-9bd8-1eea7c203e1b")
 	)
 	(sheet
-		(at 185.42 26.67)
+		(at 205.74 48.26)
 		(size 36.83 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -328,7 +328,7 @@
 		)
 		(uuid "251c92bf-7d24-4d41-80a8-919d68a47435")
 		(property "Sheetname" "Sensors"
-			(at 185.42 25.9584 0)
+			(at 205.74 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -339,7 +339,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 185.42 81.788 0)
+			(at 205.74 103.378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -350,7 +350,7 @@
 			)
 		)
 		(pin "COLOR_INT" output
-			(at 185.42 43.18 180)
+			(at 205.74 64.77 180)
 			(uuid "aecf2d7b-63ef-46db-9d79-e44d050599d7")
 			(effects
 				(font
@@ -360,7 +360,7 @@
 			)
 		)
 		(pin "HC05_KEY" input
-			(at 185.42 34.29 180)
+			(at 205.74 55.88 180)
 			(uuid "03c61020-afd5-4b25-8062-0afe0b550b23")
 			(effects
 				(font
@@ -370,7 +370,7 @@
 			)
 		)
 		(pin "HC05_RX" output
-			(at 185.42 39.37 180)
+			(at 205.74 60.96 180)
 			(uuid "08a30a39-e57d-4045-ae06-6577d63b1af7")
 			(effects
 				(font
@@ -380,7 +380,7 @@
 			)
 		)
 		(pin "HC05_STATE" output
-			(at 185.42 31.75 180)
+			(at 205.74 53.34 180)
 			(uuid "7266f651-c878-4815-8cae-c4674e502b7b")
 			(effects
 				(font
@@ -390,7 +390,7 @@
 			)
 		)
 		(pin "HC05_TX" input
-			(at 185.42 36.83 180)
+			(at 205.74 58.42 180)
 			(uuid "c6d763ac-c16f-449f-bd66-7a2a8b43cdea")
 			(effects
 				(font
@@ -400,7 +400,7 @@
 			)
 		)
 		(pin "BUZZER" input
-			(at 185.42 62.23 180)
+			(at 205.74 83.82 180)
 			(uuid "b1491967-555f-40f9-813c-300bb2dfff91")
 			(effects
 				(font
@@ -410,7 +410,7 @@
 			)
 		)
 		(pin "I2C1_SCL_TOF_COLOR" input
-			(at 185.42 68.58 180)
+			(at 205.74 90.17 180)
 			(uuid "02d4a527-4417-4ed7-9bdc-81ed8d4c715b")
 			(effects
 				(font
@@ -420,7 +420,7 @@
 			)
 		)
 		(pin "I2C1_SDA_TOF_COLOR" bidirectional
-			(at 185.42 71.12 180)
+			(at 205.74 92.71 180)
 			(uuid "fa9cafa9-6ed8-41ef-add9-ecd93b7fa85f")
 			(effects
 				(font
@@ -430,7 +430,7 @@
 			)
 		)
 		(pin "TOF_1_GPIO1" output
-			(at 185.42 50.8 180)
+			(at 205.74 72.39 180)
 			(uuid "6b342897-96d5-4a6e-b15b-cb6088047466")
 			(effects
 				(font
@@ -440,7 +440,7 @@
 			)
 		)
 		(pin "TOF_1_XSHUT" input
-			(at 185.42 48.26 180)
+			(at 205.74 69.85 180)
 			(uuid "6e3a4453-db98-40ab-a524-bb43b179c847")
 			(effects
 				(font
@@ -450,7 +450,7 @@
 			)
 		)
 		(pin "TOF_2_GPIO1" output
-			(at 185.42 55.88 180)
+			(at 205.74 77.47 180)
 			(uuid "6fa5596a-2af3-4b83-9389-3d40693356f6")
 			(effects
 				(font
@@ -460,7 +460,7 @@
 			)
 		)
 		(pin "TOF_2_XSHUT" input
-			(at 185.42 53.34 180)
+			(at 205.74 74.93 180)
 			(uuid "29266259-0b8b-4c70-870b-a4665feed21c")
 			(effects
 				(font
@@ -478,8 +478,8 @@
 		)
 	)
 	(sheet
-		(at 186.69 95.25)
-		(size 36.83 39.37)
+		(at 207.01 116.84)
+		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -494,7 +494,7 @@
 		)
 		(uuid "3f1f00ec-d2f6-4de9-9403-1c6f2ab76757")
 		(property "Sheetname" "Charger_BQ25896"
-			(at 186.69 94.5384 0)
+			(at 207.01 116.1284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -505,7 +505,7 @@
 			)
 		)
 		(property "Sheetfile" "Charger_BQ25896.kicad_sch"
-			(at 186.69 135.2046 0)
+			(at 207.01 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -516,7 +516,7 @@
 			)
 		)
 		(pin "CHARGER_INT" output
-			(at 186.69 111.76 180)
+			(at 207.01 133.35 180)
 			(uuid "23b7b512-8a41-4457-872d-9cbef23aa793")
 			(effects
 				(font
@@ -526,7 +526,7 @@
 			)
 		)
 		(pin "nQON" output
-			(at 186.69 109.22 180)
+			(at 207.01 130.81 180)
 			(uuid "8e4d9246-1b8b-498e-bebb-ae7f2eabdcca")
 			(effects
 				(font
@@ -536,7 +536,7 @@
 			)
 		)
 		(pin "FG_GPOUT" output
-			(at 186.69 106.68 180)
+			(at 207.01 128.27 180)
 			(uuid "6c5abf96-d710-4830-863e-4d03e6b275e8")
 			(effects
 				(font
@@ -546,7 +546,7 @@
 			)
 		)
 		(pin "I2C3_SCL_FG_BQ" input
-			(at 186.69 97.79 180)
+			(at 207.01 119.38 180)
 			(uuid "4b9d0fa9-1b1c-4062-8490-97c9a711a23b")
 			(effects
 				(font
@@ -556,7 +556,7 @@
 			)
 		)
 		(pin "I2C3_SDA_FG_BQ" bidirectional
-			(at 186.69 100.33 180)
+			(at 207.01 121.92 180)
 			(uuid "3aeb4a8c-7550-4f47-9aa8-019d90cfdf01")
 			(effects
 				(font
@@ -574,7 +574,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 26.67)
+		(at 129.54 48.26)
 		(size 54.61 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -590,7 +590,7 @@
 		)
 		(uuid "78b6ab93-d2c6-45f5-82ba-493882b68747")
 		(property "Sheetname" "STM32"
-			(at 109.22 25.9584 0)
+			(at 129.54 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -601,7 +601,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
-			(at 109.22 116.1546 0)
+			(at 129.54 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -612,7 +612,7 @@
 			)
 		)
 		(pin "AIN1" output
-			(at 109.22 41.91 180)
+			(at 129.54 63.5 180)
 			(uuid "e648b056-9fc1-4d46-ab88-09779690096f")
 			(effects
 				(font
@@ -622,7 +622,7 @@
 			)
 		)
 		(pin "AIN2" output
-			(at 109.22 39.37 180)
+			(at 129.54 60.96 180)
 			(uuid "fb72db04-a1f6-465e-9167-a7ddde673c71")
 			(effects
 				(font
@@ -632,7 +632,7 @@
 			)
 		)
 		(pin "BIN1" output
-			(at 109.22 36.83 180)
+			(at 129.54 58.42 180)
 			(uuid "ac8a0b2e-7775-44eb-ae70-fbf38e20521f")
 			(effects
 				(font
@@ -642,7 +642,7 @@
 			)
 		)
 		(pin "BIN2" output
-			(at 109.22 34.29 180)
+			(at 129.54 55.88 180)
 			(uuid "1171e8ee-8e6b-417b-83fa-f75d269bd148")
 			(effects
 				(font
@@ -652,7 +652,7 @@
 			)
 		)
 		(pin "ENCA_OUT1" input
-			(at 109.22 50.8 180)
+			(at 129.54 72.39 180)
 			(uuid "c6ccbb0b-b844-4f2b-ab78-35bb5a5b39d9")
 			(effects
 				(font
@@ -662,7 +662,7 @@
 			)
 		)
 		(pin "ENCA_OUT2" input
-			(at 109.22 53.34 180)
+			(at 129.54 74.93 180)
 			(uuid "e863c885-a8f8-4f83-a8d5-9e5eb829bf4d")
 			(effects
 				(font
@@ -672,7 +672,7 @@
 			)
 		)
 		(pin "ENCB_OUT1" input
-			(at 109.22 55.88 180)
+			(at 129.54 77.47 180)
 			(uuid "2cd807b4-a6ea-4cdc-8e1a-8d6e447a4da0")
 			(effects
 				(font
@@ -682,7 +682,7 @@
 			)
 		)
 		(pin "~{FAULT}" input
-			(at 109.22 60.96 180)
+			(at 129.54 82.55 180)
 			(uuid "349894da-93bb-427a-919e-0b24cfdad63f")
 			(effects
 				(font
@@ -692,7 +692,7 @@
 			)
 		)
 		(pin "~{SLEEP}" output
-			(at 109.22 31.75 180)
+			(at 129.54 53.34 180)
 			(uuid "3f781e68-857f-4e0c-90a2-61029e18ea4d")
 			(effects
 				(font
@@ -702,7 +702,7 @@
 			)
 		)
 		(pin "ENCB_OUT2" input
-			(at 109.22 58.42 180)
+			(at 129.54 80.01 180)
 			(uuid "aa498459-07ed-4d0d-ac0e-1652700e3e20")
 			(effects
 				(font
@@ -712,7 +712,7 @@
 			)
 		)
 		(pin "PWM_SERVO" output
-			(at 109.22 29.21 180)
+			(at 129.54 50.8 180)
 			(uuid "064864c1-f24c-42af-9cfc-e200d5993229")
 			(effects
 				(font
@@ -722,7 +722,7 @@
 			)
 		)
 		(pin "COLOR_INT" input
-			(at 163.83 43.18 0)
+			(at 184.15 64.77 0)
 			(uuid "1366a865-6eb5-4771-9781-0fe344856667")
 			(effects
 				(font
@@ -732,7 +732,7 @@
 			)
 		)
 		(pin "HC05_KEY" output
-			(at 163.83 34.29 0)
+			(at 184.15 55.88 0)
 			(uuid "5efab5b2-41c5-49ec-8b19-192a4cf3e07f")
 			(effects
 				(font
@@ -742,7 +742,7 @@
 			)
 		)
 		(pin "HC05_RX" input
-			(at 163.83 39.37 0)
+			(at 184.15 60.96 0)
 			(uuid "ad518ae1-50b7-46e6-97d8-17a45bc56f2f")
 			(effects
 				(font
@@ -752,7 +752,7 @@
 			)
 		)
 		(pin "HC05_STATE" input
-			(at 163.83 31.75 0)
+			(at 184.15 53.34 0)
 			(uuid "e5bda2fb-938d-4d14-bd68-d8f57c9216f2")
 			(effects
 				(font
@@ -762,7 +762,7 @@
 			)
 		)
 		(pin "HC05_TX" output
-			(at 163.83 36.83 0)
+			(at 184.15 58.42 0)
 			(uuid "3313ddcf-169f-4399-9880-9a93ab85ef62")
 			(effects
 				(font
@@ -772,7 +772,7 @@
 			)
 		)
 		(pin "CHARGER_INT" input
-			(at 163.83 111.76 0)
+			(at 184.15 133.35 0)
 			(uuid "e29c7153-cc96-4b5f-97f4-21d7f3560f45")
 			(effects
 				(font
@@ -782,7 +782,7 @@
 			)
 		)
 		(pin "nQON" input
-			(at 163.83 109.22 0)
+			(at 184.15 130.81 0)
 			(uuid "b6631304-5d32-4714-9126-369c0c241d30")
 			(effects
 				(font
@@ -792,7 +792,7 @@
 			)
 		)
 		(pin "STM32_D+" bidirectional
-			(at 109.22 107.95 180)
+			(at 129.54 129.54 180)
 			(uuid "6e0d6529-1ce7-4bfa-ac9b-00c0ce412d1d")
 			(effects
 				(font
@@ -802,7 +802,7 @@
 			)
 		)
 		(pin "STM32_D-" bidirectional
-			(at 109.22 110.49 180)
+			(at 129.54 132.08 180)
 			(uuid "d2f96b3a-41dc-4048-94c9-165ec02b8a39")
 			(effects
 				(font
@@ -812,7 +812,7 @@
 			)
 		)
 		(pin "BUZZER" output
-			(at 163.83 62.23 0)
+			(at 184.15 83.82 0)
 			(uuid "eacb8092-dc68-4256-9c1f-4c94c3588b28")
 			(effects
 				(font
@@ -822,7 +822,7 @@
 			)
 		)
 		(pin "FG_GPOUT" input
-			(at 163.83 106.68 0)
+			(at 184.15 128.27 0)
 			(uuid "ae9d8f0b-d635-4942-9bda-02311a421f67")
 			(effects
 				(font
@@ -832,7 +832,7 @@
 			)
 		)
 		(pin "I2C1_SCL_TOF_COLOR" output
-			(at 163.83 68.58 0)
+			(at 184.15 90.17 0)
 			(uuid "e312dcad-ea1b-42a6-b861-d9121b5131d7")
 			(effects
 				(font
@@ -842,7 +842,7 @@
 			)
 		)
 		(pin "I2C1_SDA_TOF_COLOR" bidirectional
-			(at 163.83 71.12 0)
+			(at 184.15 92.71 0)
 			(uuid "918a82ff-6f45-4026-846e-d531bb76b833")
 			(effects
 				(font
@@ -852,7 +852,7 @@
 			)
 		)
 		(pin "I2C3_SCL_FG_BQ" output
-			(at 163.83 97.79 0)
+			(at 184.15 119.38 0)
 			(uuid "eaa86ed9-afad-409d-a1b1-87a76c65d45e")
 			(effects
 				(font
@@ -862,7 +862,7 @@
 			)
 		)
 		(pin "I2C3_SDA_FG_BQ" bidirectional
-			(at 163.83 100.33 0)
+			(at 184.15 121.92 0)
 			(uuid "c459e948-ca69-495e-96b7-3a53a02aff73")
 			(effects
 				(font
@@ -872,7 +872,7 @@
 			)
 		)
 		(pin "TOF_1_GPIO1" input
-			(at 163.83 50.8 0)
+			(at 184.15 72.39 0)
 			(uuid "51959da7-6bca-487c-9d9a-2257982f4acb")
 			(effects
 				(font
@@ -882,7 +882,7 @@
 			)
 		)
 		(pin "TOF_1_XSHUT" output
-			(at 163.83 48.26 0)
+			(at 184.15 69.85 0)
 			(uuid "3ec256e4-6507-4e93-bd8f-9117e922fd60")
 			(effects
 				(font
@@ -892,7 +892,7 @@
 			)
 		)
 		(pin "TOF_2_GPIO1" input
-			(at 163.83 55.88 0)
+			(at 184.15 77.47 0)
 			(uuid "c689e806-c8dc-467a-a964-796d35dfe16f")
 			(effects
 				(font
@@ -902,7 +902,7 @@
 			)
 		)
 		(pin "TOF_2_XSHUT" output
-			(at 163.83 53.34 0)
+			(at 184.15 74.93 0)
 			(uuid "d9964fd3-79cb-418a-8ab9-a2488ef40b1a")
 			(effects
 				(font
@@ -920,7 +920,7 @@
 		)
 	)
 	(sheet
-		(at 48.26 26.67)
+		(at 68.58 48.26)
 		(size 25.4 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -936,7 +936,7 @@
 		)
 		(uuid "b958a27d-8d24-4628-b700-6e6347cb1cb7")
 		(property "Sheetname" "Motor_Driver"
-			(at 48.26 25.9584 0)
+			(at 68.58 47.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -947,7 +947,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor_Driver.kicad_sch"
-			(at 48.26 70.4346 0)
+			(at 68.58 92.0246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -958,7 +958,7 @@
 			)
 		)
 		(pin "AIN1" input
-			(at 73.66 41.91 0)
+			(at 93.98 63.5 0)
 			(uuid "8d7a681e-cf25-4451-a944-4c117bcaf95a")
 			(effects
 				(font
@@ -968,7 +968,7 @@
 			)
 		)
 		(pin "AIN2" input
-			(at 73.66 39.37 0)
+			(at 93.98 60.96 0)
 			(uuid "332881b1-bbc9-4ddb-9787-a780f4a200c5")
 			(effects
 				(font
@@ -978,7 +978,7 @@
 			)
 		)
 		(pin "BIN1" input
-			(at 73.66 36.83 0)
+			(at 93.98 58.42 0)
 			(uuid "16cb26c7-c5c6-4e24-a208-39aa39860d1c")
 			(effects
 				(font
@@ -988,7 +988,7 @@
 			)
 		)
 		(pin "BIN2" input
-			(at 73.66 34.29 0)
+			(at 93.98 55.88 0)
 			(uuid "922ca50b-e9f6-4c16-8629-63ec8bccbf40")
 			(effects
 				(font
@@ -998,7 +998,7 @@
 			)
 		)
 		(pin "ENCA_OUT1" output
-			(at 73.66 50.8 0)
+			(at 93.98 72.39 0)
 			(uuid "58999e82-262a-40b7-ba88-04609a39de88")
 			(effects
 				(font
@@ -1008,7 +1008,7 @@
 			)
 		)
 		(pin "ENCA_OUT2" output
-			(at 73.66 53.34 0)
+			(at 93.98 74.93 0)
 			(uuid "db8d6720-70c5-420c-bfa5-350ecd1d06ee")
 			(effects
 				(font
@@ -1018,7 +1018,7 @@
 			)
 		)
 		(pin "ENCB_OUT1" output
-			(at 73.66 55.88 0)
+			(at 93.98 77.47 0)
 			(uuid "358c767b-d7d5-40d9-9cc3-3d7c579447f2")
 			(effects
 				(font
@@ -1028,7 +1028,7 @@
 			)
 		)
 		(pin "ENCB_OUT2" output
-			(at 73.66 58.42 0)
+			(at 93.98 80.01 0)
 			(uuid "818f680c-024a-45bc-bdc9-7b789429f4ed")
 			(effects
 				(font
@@ -1038,7 +1038,7 @@
 			)
 		)
 		(pin "~{FAULT}" output
-			(at 73.66 60.96 0)
+			(at 93.98 82.55 0)
 			(uuid "3cd14af9-d608-411d-979a-46077edeb1c4")
 			(effects
 				(font
@@ -1048,7 +1048,7 @@
 			)
 		)
 		(pin "~{SLEEP}" input
-			(at 73.66 31.75 0)
+			(at 93.98 53.34 0)
 			(uuid "1aa535e2-1afa-47d8-85c6-43e77d487d17")
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 			)
 		)
 		(pin "PWM_SERVO" input
-			(at 73.66 29.21 0)
+			(at 93.98 50.8 0)
 			(uuid "0324815c-bf0c-458b-9a06-e768ea1cf3d5")
 			(effects
 				(font
@@ -1076,8 +1076,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 88.9)
-		(size 20.32 29.21)
+		(at 68.58 110.49)
+		(size 25.4 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1092,7 +1092,7 @@
 		)
 		(uuid "cf868148-9de1-446f-aaa2-162914e71069")
 		(property "Sheetname" "USB_C"
-			(at 53.34 88.1884 0)
+			(at 68.58 109.7784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1103,7 +1103,7 @@
 			)
 		)
 		(property "Sheetfile" "USB_C.kicad_sch"
-			(at 53.34 118.6946 0)
+			(at 68.58 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1114,7 +1114,7 @@
 			)
 		)
 		(pin "STM32_D+" bidirectional
-			(at 73.66 107.95 0)
+			(at 93.98 129.54 0)
 			(uuid "70834f9c-7e69-4309-be6a-afbaeb70a056")
 			(effects
 				(font
@@ -1124,7 +1124,7 @@
 			)
 		)
 		(pin "STM32_D-" bidirectional
-			(at 73.66 110.49 0)
+			(at 93.98 132.08 0)
 			(uuid "a3e8ae98-4af4-49fc-b9e8-8fa063a7d853")
 			(effects
 				(font
