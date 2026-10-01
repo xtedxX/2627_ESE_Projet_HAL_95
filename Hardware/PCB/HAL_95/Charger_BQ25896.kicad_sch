@@ -506,7 +506,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -10.16 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -556,7 +556,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -4369,6 +4369,12 @@
 		(uuid "01424e53-71cd-4076-a03b-79d1ddf06d46")
 	)
 	(junction
+		(at 52.07 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0209a675-39ed-47cb-a7b8-b245cef3971b")
+	)
+	(junction
 		(at 107.95 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4391,6 +4397,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07bf4eee-ece7-4f3f-8300-5458aa8cce87")
+	)
+	(junction
+		(at 140.97 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a9ab484-2470-4f03-9ea5-85d1050d462f")
 	)
 	(junction
 		(at 243.84 54.61)
@@ -4441,12 +4453,6 @@
 		(uuid "2d80aabb-57cc-46b8-8ff4-ac5fe30eb703")
 	)
 	(junction
-		(at 148.59 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f7a71eb-22bb-4235-a369-06c323d22313")
-	)
-	(junction
 		(at 173.99 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4457,6 +4463,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fb27ada-a490-4bf9-9e70-245ebad60195")
+	)
+	(junction
+		(at 68.58 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "512f1a33-7266-4d63-acb1-c9be96b314d1")
 	)
 	(junction
 		(at 93.98 100.33)
@@ -4471,16 +4483,22 @@
 		(uuid "58ce00d5-2efa-4e36-a760-d9d50033e546")
 	)
 	(junction
-		(at 161.29 135.89)
+		(at 86.36 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f036910-0257-40d5-a19f-1b5bda7fce65")
+		(uuid "5b68bba2-a509-477d-aad3-0282b050e2ce")
 	)
 	(junction
 		(at 123.19 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79e33909-1828-4237-9880-1376429c0514")
+		(uuid "6707e09e-33fb-4951-9378-a2d6754b98a4")
+	)
+	(junction
+		(at 161.29 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f036910-0257-40d5-a19f-1b5bda7fce65")
 	)
 	(junction
 		(at 142.24 29.21)
@@ -4513,10 +4531,10 @@
 		(uuid "8f1c7df2-fbdd-4e8c-af13-fe9788d4b8d0")
 	)
 	(junction
-		(at 140.97 54.61)
+		(at 60.96 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9220df58-43d2-4918-a735-cffba56a3869")
+		(uuid "93afa1b7-ea48-49e2-a07d-2e122098e27e")
 	)
 	(junction
 		(at 165.1 50.8)
@@ -4525,34 +4543,22 @@
 		(uuid "95a5a6a8-4168-4ca9-a19f-d77c8f100706")
 	)
 	(junction
+		(at 148.59 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97a20f8f-0253-4e71-aa70-ce49c2ed21a1")
+	)
+	(junction
 		(at 232.41 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b00613a-a492-401f-aba4-2f76adaae598")
 	)
 	(junction
-		(at 86.36 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ba4c761-c279-4e68-836a-6a3e3e0a832b")
-	)
-	(junction
 		(at 168.91 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2c3aba2-43f4-401e-abd2-dee2e6fe5bf9")
-	)
-	(junction
-		(at 60.96 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a46798a0-0a5b-4ee8-a4d6-def8ca62b025")
-	)
-	(junction
-		(at 52.07 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa1ffe7d-e807-4673-8efa-7ed00d67ae35")
 	)
 	(junction
 		(at 185.42 135.89)
@@ -4583,12 +4589,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da11e21e-2309-4e39-ae58-26ff5900ad91")
-	)
-	(junction
-		(at 68.58 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dacaf6d5-8ac6-4350-aaad-8e9742f17cd5")
 	)
 	(junction
 		(at 156.21 135.89)
@@ -10284,7 +10284,7 @@
 			(uuid "36ee7ea8-5e2f-4a6f-91a4-7b61314be40d")
 		)
 		(pin "25"
-			(uuid "0e8512e4-d673-44cb-a4f9-dd99ec587755")
+			(uuid "85cf8a9d-c460-4fb9-bd60-fbca18147f83")
 		)
 		(instances
 			(project "HAL_95"
