@@ -3986,8 +3986,8 @@
 		(uuid "9b063d5f-d46d-4a47-b805-3fd503dd5649")
 	)
 	(no_connect
-		(at 134.62 151.13)
-		(uuid "a7413c26-b481-4753-a844-f6a520ffb894")
+		(at 134.62 120.65)
+		(uuid "aeaaa6e8-f139-480a-9eab-8ed8a6293baf")
 	)
 	(no_connect
 		(at 99.06 128.27)
@@ -4783,6 +4783,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 151.13) (xy 138.43 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9128d9b7-b34a-4de2-8fa8-36e075858eaf")
+	)
+	(wire
+		(pts
 			(xy 138.43 128.27) (xy 134.62 128.27)
 		)
 		(stroke
@@ -5571,16 +5581,6 @@
 		)
 		(uuid "ff84d974-aa40-4118-85f0-8b4a1ab4356e")
 	)
-	(wire
-		(pts
-			(xy 134.62 120.65) (xy 138.43 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffbd5e03-ddca-464b-a5cc-84c8b1b364a8")
-	)
 	(label "JTMS/SWDIO"
 		(at 147.32 105.41 180)
 		(effects
@@ -5701,6 +5701,17 @@
 		)
 		(uuid "e25be763-a00b-4371-a320-d92e2ff6ab9b")
 	)
+	(hierarchical_label "nQON"
+		(shape input)
+		(at 138.43 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "012c1322-369d-4c07-bb50-f93c4cbc9a04")
+	)
 	(hierarchical_label "ENCA_OUT1"
 		(shape input)
 		(at 138.43 72.39 0)
@@ -5810,17 +5821,6 @@
 			(justify right)
 		)
 		(uuid "3de036b7-801b-4025-8314-9c63ca59a9ae")
-	)
-	(hierarchical_label "nQON"
-		(shape input)
-		(at 138.43 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4adf75bb-6fba-40cf-810c-9d41116551dd")
 	)
 	(hierarchical_label "ENCB_OUT2"
 		(shape input)
