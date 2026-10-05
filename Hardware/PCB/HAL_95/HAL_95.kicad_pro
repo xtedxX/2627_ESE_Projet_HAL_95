@@ -52,21 +52,21 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.5,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.3,
-          "thermal_relief_spoke_width": 0.3
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -83,23 +83,27 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|194070000|80740000|1bcf3786-c8b8-4624-9f0c-6799eabac7d1|d324ca6d-0aa6-405c-ab68-7aa1f975fd7b",
+          "clearance|194070000|80740000|9ee25a98-7a53-4b59-92a4-75b1cc87a2fc|aa9a5f58-cdc9-4d71-962d-b8d5585702f1",
           ""
         ],
         [
-          "track_width|193695000|80865000|ab6945b5-e560-48cf-886c-d4d730a76f14|00000000-0000-0000-0000-000000000000",
+          "track_width|193695000|80865000|b344b322-9ba8-432a-b0f5-a1fdae339aa4|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "track_width|194210000|80740000|d324ca6d-0aa6-405c-ab68-7aa1f975fd7b|00000000-0000-0000-0000-000000000000",
-          "Teachers said it's ok"
-        ],
-        [
-          "track_width|195115000|80225000|e42191b7-5375-4eed-a2a2-ef8d47c7c983|00000000-0000-0000-0000-000000000000",
+          "track_width|194080000|80740000|aa9a5f58-cdc9-4d71-962d-b8d5585702f1|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "track_width|195820000|79710000|e594a2d3-acaf-4c43-a021-8fd1db4c3b47|00000000-0000-0000-0000-000000000000",
+          "track_width|194742500|80337500|01382adc-8723-4c73-980a-6bbe10c5ac68|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|195257500|79822500|e697a62a-9626-4915-b3fb-e7297e8b8eba|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|195690000|79710000|b0a25399-1260-40b2-a760-6b54047ea279|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -180,7 +184,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.2,
         "min_text_thickness": 0.05,
@@ -576,7 +580,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../fab/gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -606,7 +610,7 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
@@ -614,11 +618,11 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
-          "label": "Value",
+          "label": "Comment",
           "name": "Value",
           "show": true
         },
@@ -626,7 +630,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -638,19 +642,19 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -662,7 +666,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -722,7 +726,7 @@
           "group_by": false,
           "label": "Part Number",
           "name": "Part Number",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -770,7 +774,7 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -839,7 +843,7 @@
         "uuid": "d28472ac-3b92-430d-9be8-f4bdbfbb9f17"
       }
     ],
-    "used_designators": "#PWR1-95,L2,D1,D4-7,Y1-2,Q1-3,FB2,F2,C1-42,U1-8,SW1-4,JP1-3,R1-27,#FLG1-8,TP1-6,J1-13,TH1,H1",
+    "used_designators": "Q1-3,C1-42,L2,FB2,SW1-4,F2,U1-8,D1,D4-7,#FLG1-8,TH1,R1-28,JP1-3,TP1-6,H1,J1-13,#PWR1-95,Y1-2",
     "variants": []
   },
   "sheets": [
