@@ -843,7 +843,7 @@
         "uuid": "d28472ac-3b92-430d-9be8-f4bdbfbb9f17"
       }
     ],
-    "used_designators": "Q1-3,C1-42,L2,FB2,SW1-4,F2,U1-8,D1,D4-7,#FLG1-8,TH1,R1-28,JP1-3,TP1-6,H1,J1-13,#PWR1-95,Y1-2",
+    "used_designators": "D1,D4-7,U1-8,C1-42,F2,#FLG1-8,TH1,SW1-4,TP1-6,JP1-3,R1-28,Y1-2,#PWR1-95,FB2,L2,J1-13,H1,Q1-3",
     "variants": []
   },
   "sheets": [
